@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#07070d" />
-  <title>Qalbi Studio — We Build Software That Sells</title>
-  <meta name="description" content="Qalbi Studio builds QR menus, online stores, WhatsApp ordering systems, websites and apps for Pakistani businesses." />
+  <meta name="theme-color" content="#08080c" />
+  <title>Qalbi Studio — Digital Product Agency</title>
+  <meta name="description" content="Qalbi Studio is a digital product agency building QR ordering systems, online stores, WhatsApp automation and custom software for growing businesses." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%2308080c'/%3E%3Crect x='2' y='2' width='60' height='60' rx='12' fill='none' stroke='url(%23g)' stroke-width='2'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='26' font-weight='700' fill='url(%23g)' text-anchor='middle'%3EQS%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -18,120 +19,145 @@
   <div class="orb orb-b" aria-hidden="true"></div>
 
   <!-- ============ NAV ============ -->
-  <nav class="nav">
+  <nav class="nav" id="nav">
+    <div class="topbar">
+      <span class="topbar-dot"></span>
+      <span>Now accepting new projects — <b>2 delivery slots left this month</b></span>
+      <a href="#contact">Book a free consultation →</a>
+    </div>
     <div class="nav-inner">
       <a class="brand" href="#top">
         <span class="brand-mark">QS</span>
         <span class="brand-name">Qalbi <b>Studio</b></span>
       </a>
       <div class="nav-links" id="navLinks">
-        <a href="#work">Projects</a>
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
+        <a href="#work">Work</a>
+        <a href="#services">Capabilities</a>
         <a href="#process">Process</a>
-        <a class="btn btn-sm btn-grad nav-cta" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Mujhe%20Qalbi%20Studio%20se%20software%20order%20karna%20hai." target="_blank" rel="noopener">💬 Order Now</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-sm btn-grad nav-cta" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Mujhe%20Qalbi%20Studio%20se%20software%20order%20karna%20hai." target="_blank" rel="noopener">Start a Project</a>
       </div>
       <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
+    <div class="progress" id="progress"></div>
   </nav>
 
   <!-- ============ HERO ============ -->
   <header class="hero" id="top">
     <div class="wrap">
-      <div class="pill-badge reveal">🚀 5 Projects Live — Delivery in 7 Days</div>
+      <p class="kicker reveal">Digital Product Agency — Pakistan</p>
       <h1 class="reveal">
-        We Build Software<br />
-        That <span class="grad-text">Sells.</span>
+        Software engineered<br />
+        for businesses that <em>sell.</em>
       </h1>
       <p class="hero-sub reveal">
-        QR menus, online stores, WhatsApp ordering systems aur custom apps —
-        aapke business ke liye, <b>ready in days, not months.</b>
+        We design and ship QR ordering systems, online stores, WhatsApp automation and
+        custom applications — production-ready in days, not quarters.
       </p>
       <div class="hero-cta reveal">
-        <a class="btn btn-grad" href="#work">🛍️ Projects Dekhein</a>
-        <a class="btn btn-ghost" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Mujhe%20software%20order%20karna%20hai." target="_blank" rel="noopener">💬 WhatsApp Par Order</a>
+        <a class="btn btn-grad" href="#contact">Start a Project</a>
+        <a class="btn btn-ghost" href="#work">View Selected Work</a>
       </div>
 
-      <div class="stats reveal" id="stats">
-        <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Projects Live</span></div>
-        <div class="stat"><span class="stat-num" data-target="120" data-suffix="+">0</span><span class="stat-label">Products Listed</span></div>
-        <div class="stat"><span class="stat-num" data-target="7" data-suffix=" Days">0</span><span class="stat-label">Avg. Delivery</span></div>
-        <div class="stat"><span class="stat-num" data-target="24" data-suffix="/7">0</span><span class="stat-label">Support</span></div>
+      <div class="trusted reveal">
+        <span class="trusted-label">Trusted by</span>
+        <div class="trusted-list">
+          <span>Arikaap Cafe</span>
+          <span>Dawn Barbecue</span>
+          <span>MK Store</span>
+          <span>Virus Gaming</span>
+          <span>Airah PlayZone 9</span>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- ============ MARQUEE ============ -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>QR MENUS ✦ ONLINE STORES ✦ WHATSAPP ORDERING ✦ WHATSAPP BOTS ✦ BUSINESS WEBSITES ✦ CUSTOM APPS ✦ LOGO &amp; BRANDING ✦ </span>
-      <span>QR MENUS ✦ ONLINE STORES ✦ WHATSAPP ORDERING ✦ WHATSAPP BOTS ✦ BUSINESS WEBSITES ✦ CUSTOM APPS ✦ LOGO &amp; BRANDING ✦ </span>
+  <!-- ============ STATS ============ -->
+  <section class="stats-band">
+    <div class="wrap">
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Products shipped</span></div>
+        <div class="stat"><span class="stat-num" data-target="120" data-suffix="+">0</span><span class="stat-label">SKUs catalogued</span></div>
+        <div class="stat"><span class="stat-num" data-target="7" data-suffix=" d">0</span><span class="stat-label">Avg. delivery time</span></div>
+        <div class="stat"><span class="stat-num" data-target="100" data-suffix="%">0</span><span class="stat-label">Client approval</span></div>
+      </div>
     </div>
-  </div>
+  </section>
 
   <!-- ============ WORK ============ -->
   <section class="section" id="work">
     <div class="wrap">
-      <p class="eyebrow reveal">01 — Portfolio</p>
-      <h2 class="reveal">Live <span class="grad-text">Projects</span></h2>
-      <p class="section-sub reveal">Har project asli client ke liye banaya gaya — abhi live hai, khud check karein.</p>
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">01 — Selected Work</p>
+          <h2>Products in <em>production.</em></h2>
+        </div>
+        <p class="sec-desc">Every engagement below is live in the market right now. Open a demo and evaluate the build quality yourself.</p>
+      </div>
 
       <div class="work-grid">
         <a class="work-card reveal" href="https://qalbi485.github.io/arikaap-cafe-menu/" target="_blank" rel="noopener">
-          <div class="work-thumb t-orange">☕</div>
+          <div class="work-thumb t-orange"><span>AC</span></div>
           <div class="work-body">
-            <div class="work-tags"><span class="tag">Restaurant</span><span class="tag">QR Menu</span></div>
+            <div class="work-meta"><span>Restaurant</span><span>5 days</span></div>
             <h3>Arikaap Cafe</h3>
-            <p>Orange theme, table-wise QR ordering, Urdu menu, WhatsApp checkout.</p>
-            <span class="work-link">Live Demo ↗</span>
+            <p>Table-scannable digital menu with bilingual copy and WhatsApp checkout for a Lahore cafe.</p>
+            <div class="work-stats"><span>QR ordering</span><span>Urdu + EN</span><span>Custom theme</span></div>
+            <span class="work-link">Open live demo <i>↗</i></span>
           </div>
         </a>
 
         <a class="work-card reveal" href="https://qalbi485.github.io/dawn-barbecue-menu/" target="_blank" rel="noopener">
-          <div class="work-thumb t-red">🔥</div>
+          <div class="work-thumb t-red"><span>DB</span></div>
           <div class="work-body">
-            <div class="work-tags"><span class="tag">Restaurant</span><span class="tag">QR Menu</span></div>
+            <div class="work-meta"><span>Restaurant</span><span>4 days</span></div>
             <h3>Dawn Barbecue</h3>
-            <p>Red-black BBQ theme, Bebas font, full menu + online order system.</p>
-            <span class="work-link">Live Demo ↗</span>
+            <p>Full menu catalogue and order pipeline for a barbecue brand — typography-led red/black identity.</p>
+            <div class="work-stats"><span>Order pipeline</span><span>Brand theme</span><span>Mobile first</span></div>
+            <span class="work-link">Open live demo <i>↗</i></span>
           </div>
         </a>
 
         <a class="work-card reveal" href="https://qalbi485.github.io/mk-store/" target="_blank" rel="noopener">
-          <div class="work-thumb t-gold">🛒</div>
+          <div class="work-thumb t-gold"><span>MK</span></div>
           <div class="work-body">
-            <div class="work-tags"><span class="tag">Online Store</span><span class="tag">Delivery</span></div>
+            <div class="work-meta"><span>Retail</span><span>6 days</span></div>
             <h3>MK Store</h3>
-            <p>White-gold theme, 28 products, home delivery + pickup WhatsApp ordering.</p>
-            <span class="work-link">Live Demo ↗</span>
+            <p>Electricals &amp; cooling e-commerce storefront with delivery economics and free-shipping thresholds.</p>
+            <div class="work-stats"><span>28 SKUs</span><span>Delivery engine</span><span>Gold identity</span></div>
+            <span class="work-link">Open live demo <i>↗</i></span>
           </div>
         </a>
 
         <a class="work-card reveal" href="https://qalbi485.github.io/virus-gaming/" target="_blank" rel="noopener">
-          <div class="work-thumb t-violet">🎮</div>
+          <div class="work-thumb t-violet"><span>VG</span></div>
           <div class="work-body">
-            <div class="work-tags"><span class="tag">Online Store</span><span class="tag">Gaming</span></div>
+            <div class="work-meta"><span>Retail</span><span>5 days</span></div>
             <h3>Virus Gaming</h3>
-            <p>Neon violet RGB theme, 23 gaming products, free delivery over Rs 8,000.</p>
-            <span class="work-link">Live Demo ↗</span>
+            <p>Gaming peripherals store with RGB-inspired interface and tiered free-delivery logic.</p>
+            <div class="work-stats"><span>23 SKUs</span><span>5 categories</span><span>Neon UI</span></div>
+            <span class="work-link">Open live demo <i>↗</i></span>
           </div>
         </a>
 
         <a class="work-card reveal" href="https://qalbi485.github.io/aira-playz/" target="_blank" rel="noopener">
-          <div class="work-thumb t-pink">🎧</div>
+          <div class="work-thumb t-goldpink"><span>AP</span></div>
           <div class="work-body">
-            <div class="work-tags"><span class="tag">Online Store</span><span class="tag">Custom Logo</span></div>
+            <div class="work-meta"><span>Retail</span><span>4 days</span></div>
             <h3>Airah PlayZone 9</h3>
-            <p>Client logo se matched black-gold-pink theme, RGB fans, headsets &amp; cables.</p>
-            <span class="work-link">Live Demo ↗</span>
+            <p>Storefront art-directed entirely from the client's existing logo — black, gold and magenta system.</p>
+            <div class="work-stats"><span>Logo-matched</span><span>23 SKUs</span><span>Custom palette</span></div>
+            <span class="work-link">Open live demo <i>↗</i></span>
           </div>
         </a>
 
         <div class="work-card work-card-cta reveal">
           <div class="work-body cta-body">
-            <h3>Aapka Project <span class="grad-text">Yahan</span> 🔜</h3>
-            <p>Agla live demo aapka hoga. Batayein kya chahiye — 7 din mein live.</p>
-            <a class="btn btn-grad btn-sm" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Mera%20project%20banana%20hai." target="_blank" rel="noopener">💬 Shuru Karein</a>
+            <p class="eyebrow">Next engagement</p>
+            <h3>Your product could be <em>06.</em></h3>
+            <p>We onboard two clients per month to protect delivery quality.</p>
+            <a class="btn btn-grad btn-sm" href="#contact">Reserve a slot →</a>
           </div>
         </div>
       </div>
@@ -141,101 +167,50 @@
   <!-- ============ SERVICES ============ -->
   <section class="section" id="services">
     <div class="wrap">
-      <p class="eyebrow reveal">02 — Services</p>
-      <h2 class="reveal">Kya <span class="grad-text">Banate Hain</span></h2>
-      <p class="section-sub reveal">Design se lekar launch tak — sab kuch ek hi jagah.</p>
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">02 — Capabilities</p>
+          <h2>What we <em>engineer.</em></h2>
+        </div>
+        <p class="sec-desc">End-to-end delivery: strategy, interface design, engineering, deployment and post-launch support.</p>
+      </div>
 
       <div class="serv-grid">
         <div class="serv-card reveal">
-          <div class="serv-ico">📱</div>
-          <h3>QR Online Menu</h3>
-          <p>Customer QR scan kare — menu, prices, Urdu translation, seedha WhatsApp order.</p>
-          <span class="serv-price">Rs 7,000 se</span>
+          <span class="serv-num">01</span>
+          <h3>QR Ordering Systems</h3>
+          <p>Table and counter QR flows with bilingual menus, live cart and WhatsApp checkout — deployed on your own URL.</p>
+          <span class="serv-price">From Rs 7,000</span>
         </div>
         <div class="serv-card reveal">
-          <div class="serv-ico">🛍️</div>
-          <h3>Online Store</h3>
-          <p>Products catalog, cart, home delivery + pickup — poora WhatsApp ordering system.</p>
-          <span class="serv-price">Rs 10,000 se</span>
+          <span class="serv-num">02</span>
+          <h3>Online Storefronts</h3>
+          <p>Catalogue, cart, delivery &amp; pickup logic, shipping thresholds and order messaging — a complete selling machine.</p>
+          <span class="serv-price">From Rs 10,000</span>
         </div>
         <div class="serv-card reveal">
-          <div class="serv-ico">🌐</div>
-          <h3>Business Website</h3>
-          <p>Professional responsive website — services, gallery, contact, SEO ready.</p>
-          <span class="serv-price">Rs 12,000 se</span>
+          <span class="serv-num">03</span>
+          <h3>Corporate Websites</h3>
+          <p>Responsive, SEO-ready marketing sites with structured content, performance budgets and analytics wiring.</p>
+          <span class="serv-price">From Rs 12,000</span>
         </div>
         <div class="serv-card reveal">
-          <div class="serv-ico">🤖</div>
-          <h3>WhatsApp Bot</h3>
-          <p>Auto replies, order confirmations, menu bot — 24/7 bina staff ke.</p>
-          <span class="serv-price">Rs 7,000 se</span>
+          <span class="serv-num">04</span>
+          <h3>WhatsApp Automation</h3>
+          <p>Auto-responses, order confirmations and menu bots that operate 24/7 without additional headcount.</p>
+          <span class="serv-price">From Rs 7,000</span>
         </div>
         <div class="serv-card reveal">
-          <div class="serv-ico">⚡</div>
-          <h3>Custom Apps</h3>
-          <p>Android/iOS apps, booking systems, POS — jo aapke business ki zarurat ho.</p>
-          <span class="serv-price">Rs 35,000 se</span>
+          <span class="serv-num">05</span>
+          <h3>Custom Applications</h3>
+          <p>Android/iOS applications, booking systems and POS tooling built around your exact operating workflow.</p>
+          <span class="serv-price">From Rs 35,000</span>
         </div>
         <div class="serv-card reveal">
-          <div class="serv-ico">🎨</div>
-          <h3>Logo &amp; Branding</h3>
-          <p>Logo, menu design, social media kit — brand jo yaad rahe.</p>
-          <span class="serv-price">Rs 3,000 se</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ PRICING ============ -->
-  <section class="section" id="pricing">
-    <div class="wrap">
-      <p class="eyebrow reveal">03 — Pricing</p>
-      <h2 class="reveal">Simple <span class="grad-text">Packages</span></h2>
-      <p class="section-sub reveal">Koi hidden charge nahi. Demo free — payment after approval.</p>
-
-      <div class="price-grid">
-        <div class="price-card reveal">
-          <h3>QR Starter</h3>
-          <div class="price"><small>Rs</small>7,000</div>
-          <p class="price-note">Restaurants &amp; cafes ke liye</p>
-          <ul>
-            <li>✅ QR menu (mobile first)</li>
-            <li>✅ WhatsApp ordering</li>
-            <li>✅ Urdu + English</li>
-            <li>✅ Custom theme (logo jaisa)</li>
-            <li>✅ Free 1 month support</li>
-          </ul>
-          <a class="btn btn-ghost btn-full" href="https://wa.me/923000000000?text=Mujhe%20QR%20Starter%20package%20chahiye." target="_blank" rel="noopener">Order QR Starter</a>
-        </div>
-
-        <div class="price-card price-pop reveal">
-          <span class="pop-badge">⭐ MOST POPULAR</span>
-          <h3>Store Pro</h3>
-          <div class="price"><small>Rs</small>15,000</div>
-          <p class="price-note">Stores &amp; shops ke liye</p>
-          <ul>
-            <li>✅ Poora online store</li>
-            <li>✅ Unlimited products</li>
-            <li>✅ Delivery + pickup system</li>
-            <li>✅ Custom theme + logo</li>
-            <li>✅ WhatsApp order integration</li>
-            <li>✅ Free 2 months support</li>
-          </ul>
-          <a class="btn btn-grad btn-full" href="https://wa.me/923000000000?text=Mujhe%20Store%20Pro%20package%20chahiye." target="_blank" rel="noopener">Order Store Pro</a>
-        </div>
-
-        <div class="price-card reveal">
-          <h3>Custom Build</h3>
-          <div class="price"><small>Rs</small>35,000+</div>
-          <p class="price-note">Apps, bots &amp; full systems</p>
-          <ul>
-            <li>✅ Custom app / website</li>
-            <li>✅ WhatsApp automation</li>
-            <li>✅ Booking / POS systems</li>
-            <li>✅ Source code handover</li>
-            <li>✅ Free 3 months support</li>
-          </ul>
-          <a class="btn btn-ghost btn-full" href="https://wa.me/923000000000?text=Mujhe%20Custom%20Build%20chahiye." target="_blank" rel="noopener">Discuss Project</a>
+          <span class="serv-num">06</span>
+          <h3>Brand &amp; Identity</h3>
+          <p>Logo systems, menu design and social kits — a visual identity that stays consistent across every surface.</p>
+          <span class="serv-price">From Rs 3,000</span>
         </div>
       </div>
     </div>
@@ -244,42 +219,137 @@
   <!-- ============ PROCESS ============ -->
   <section class="section" id="process">
     <div class="wrap">
-      <p class="eyebrow reveal">04 — Process</p>
-      <h2 class="reveal">4 Steps, <span class="grad-text">7 Days</span></h2>
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">03 — Engagement</p>
+          <h2>A process built for <em>certainty.</em></h2>
+        </div>
+        <p class="sec-desc">Fixed scope, fixed price, visible milestones. You approve before a single rupee moves.</p>
+      </div>
 
       <div class="proc-grid">
         <div class="proc-card reveal">
           <span class="proc-num">01</span>
-          <h3>Baat Karein</h3>
-          <p>WhatsApp par batayein kya chahiye — products, menu, logo, number.</p>
+          <h3>Discovery</h3>
+          <p>A 15-minute WhatsApp consultation captures your products, pricing, branding and operational constraints.</p>
+          <span class="proc-time">Day 0</span>
         </div>
         <div class="proc-card reveal">
           <span class="proc-num">02</span>
           <h3>Free Demo</h3>
-          <p>1-2 din mein demo link — khud check karein, edits mangwayein.</p>
+          <p>You receive a working link within 48 hours — review it on your own phone, request revisions freely.</p>
+          <span class="proc-time">Day 1–2</span>
         </div>
         <div class="proc-card reveal">
           <span class="proc-num">03</span>
-          <h3>Approve + Pay</h3>
-          <p>Pasand aaya to 50% advance, baqi launch par.</p>
+          <h3>Approval &amp; Payment</h3>
+          <p>50% advance on approval, balance on launch. EasyPaisa, JazzCash and bank transfer accepted.</p>
+          <span class="proc-time">Day 3</span>
         </div>
         <div class="proc-card reveal">
           <span class="proc-num">04</span>
-          <h3>🚀 Launch</h3>
-          <p>Live link + QR code deliver — apne customers ke sath share karein.</p>
+          <h3>Launch &amp; Handover</h3>
+          <p>Production URL, printable QR codes and full handover — followed by a dedicated support window.</p>
+          <span class="proc-time">Day 4–7</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ WHY US ============ -->
-  <section class="section section-tight">
+  <!-- ============ PRICING ============ -->
+  <section class="section" id="pricing">
     <div class="wrap">
-      <div class="why-grid">
-        <div class="why-item reveal"><span>⚡</span><b>7 Din Delivery</b><p>Dheere kaam nahi — fast launch.</p></div>
-        <div class="why-item reveal"><span>🎨</span><b>Logo Jaisa Design</b><p>Theme aapke brand se match.</p></div>
-        <div class="why-item reveal"><span>📱</span><b>Mobile First</b><p>90% customers mobile se order karte hain.</p></div>
-        <div class="why-item reveal"><span>🤝</span><b>Free Support</b><p>Launch ke baad bhi hum sath hain.</p></div>
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">04 — Engagement Models</p>
+          <h2>Transparent <em>pricing.</em></h2>
+        </div>
+        <p class="sec-desc">No hidden charges, no scope surprises. Demos are free — payment follows approval.</p>
+      </div>
+
+      <div class="price-grid">
+        <div class="price-card reveal">
+          <h3>QR Starter</h3>
+          <p class="price-for">For restaurants &amp; cafés</p>
+          <div class="price"><small>Rs</small>7,000</div>
+          <ul>
+            <li>Mobile-first QR menu</li>
+            <li>WhatsApp order checkout</li>
+            <li>Bilingual — Urdu &amp; English</li>
+            <li>Theme matched to your logo</li>
+            <li>1 month post-launch support</li>
+          </ul>
+          <a class="btn btn-ghost btn-full" href="https://wa.me/923000000000?text=Mujhe%20QR%20Starter%20package%20chahiye." target="_blank" rel="noopener">Request Proposal</a>
+        </div>
+
+        <div class="price-card price-pop reveal">
+          <span class="pop-badge">MOST REQUESTED</span>
+          <h3>Store Pro</h3>
+          <p class="price-for">For shops &amp; retail brands</p>
+          <div class="price"><small>Rs</small>15,000</div>
+          <ul>
+            <li>Complete online storefront</li>
+            <li>Unlimited products &amp; categories</li>
+            <li>Delivery + pickup logistics engine</li>
+            <li>Custom design system + logo</li>
+            <li>WhatsApp order integration</li>
+            <li>2 months post-launch support</li>
+          </ul>
+          <a class="btn btn-grad btn-full" href="https://wa.me/923000000000?text=Mujhe%20Store%20Pro%20package%20chahiye." target="_blank" rel="noopener">Request Proposal</a>
+        </div>
+
+        <div class="price-card reveal">
+          <h3>Custom Build</h3>
+          <p class="price-for">For systems, bots &amp; apps</p>
+          <div class="price"><small>Rs</small>35,000+</div>
+          <ul>
+            <li>Custom application / platform</li>
+            <li>WhatsApp &amp; API automation</li>
+            <li>Booking, POS &amp; internal tools</li>
+            <li>Source-code handover</li>
+            <li>3 months post-launch support</li>
+          </ul>
+          <a class="btn btn-ghost btn-full" href="https://wa.me/923000000000?text=Mujhe%20Custom%20Build%20ke%20liye%20discussion%20karni%20hai." target="_blank" rel="noopener">Discuss Scope</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="wrap wrap-narrow">
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">05 — FAQ</p>
+          <h2>Common <em>questions.</em></h2>
+        </div>
+      </div>
+
+      <div class="faq-list reveal">
+        <details>
+          <summary>Demo bilkul free hai? <span>+</span></summary>
+          <p>Yes. We build a working demo first — you review it on your phone and request changes. Payment is only requested after you approve the final result.</p>
+        </details>
+        <details>
+          <summary>Kitne time mein delivery hoti hai? <span>+</span></summary>
+          <p>Standard projects ship in 4–7 days. Applications and complex systems are scoped with a milestone timeline before work begins.</p>
+        </details>
+        <details>
+          <summary>Koi monthly fee ya commission? <span>+</span></summary>
+          <p>No commission, ever. You get an optional low-cost hosting/maintenance plan after launch — or you can host it yourself; the choice is yours.</p>
+        </details>
+        <details>
+          <summary>Payment kaise karni hoti hai? <span>+</span></summary>
+          <p>50% advance after demo approval, 50% before go-live. EasyPaisa, JazzCash and bank transfers are all accepted.</p>
+        </details>
+        <details>
+          <summary>Kya main khud edits kar sakta hoon? <span>+</span></summary>
+          <p>Absolutely. Every store ships with a plain editable config file — prices, products, WhatsApp number and hours are all one line each. We also handle edits for you free during the support window.</p>
+        </details>
+        <details>
+          <summary>Support ke baad kya hota hai? <span>+</span></summary>
+          <p>After the free support window you can opt into a maintenance retainer, or simply keep the site running — static builds rarely need changes.</p>
+        </details>
       </div>
     </div>
   </section>
@@ -287,28 +357,89 @@
   <!-- ============ CONTACT ============ -->
   <section class="section" id="contact">
     <div class="wrap">
-      <div class="contact-panel reveal">
-        <p class="eyebrow">05 — Contact</p>
-        <h2>Aaj Hi <span class="grad-text">Shuru Karein</span> 🚀</h2>
-        <p class="section-sub">Free consultation — batayein business, hum idea + quote dete hain. Demo bilkul free.</p>
-        <div class="hero-cta">
-          <a class="btn btn-grad btn-lg" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Qalbi%20Studio%20se%20mujhe%20software%20chahiye.%20Free%20demo%20chahiye." target="_blank" rel="noopener">💬 WhatsApp: 0300-0000000</a>
-          <a class="btn btn-ghost btn-lg" href="#work">See Our Work</a>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">06 — Contact</p>
+          <h2>Let's build your <em>next product.</em></h2>
+          <p class="sec-desc">Tell us what you sell — we'll reply with an approach, timeline and fixed quote within the hour.</p>
+
+          <div class="contact-points">
+            <div><span>Response time</span><b>Under 1 hour, 7 days a week</b></div>
+            <div><span>Engagement</span><b>Fixed price · Milestone based</b></div>
+            <div><span>Payment methods</span><b>EasyPaisa · JazzCash · Bank</b></div>
+            <div><span>Based in</span><b>Pakistan 🇵🇰 — serving clients nationwide</b></div>
+          </div>
+
+          <a class="btn btn-ghost" href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%21%20Qalbi%20Studio%20se%20baat%20karni%20hai." target="_blank" rel="noopener">💬 Or message us on WhatsApp</a>
         </div>
-        <p class="contact-note">📍 Pakistan · 🕐 Reply within 1 hour · 💳 EasyPaisa / JazzCash / Bank</p>
+
+        <form class="contact-form reveal" id="briefForm">
+          <div class="field">
+            <label for="fName">Your name</label>
+            <input id="fName" type="text" placeholder="Ali Khan" required />
+          </div>
+          <div class="field">
+            <label for="fBiz">Business name</label>
+            <input id="fBiz" type="text" placeholder="Khan Electronics" required />
+          </div>
+          <div class="field">
+            <label for="fSvc">Service needed</label>
+            <select id="fSvc">
+              <option>QR Ordering System</option>
+              <option>Online Storefront</option>
+              <option>Corporate Website</option>
+              <option>WhatsApp Automation</option>
+              <option>Custom Application</option>
+              <option>Logo &amp; Branding</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fMsg">Project details</label>
+            <textarea id="fMsg" rows="4" placeholder="Products, target launch date, references..."></textarea>
+          </div>
+          <button class="btn btn-grad btn-full" type="submit">Send Brief via WhatsApp →</button>
+          <p class="form-note">Opens WhatsApp with your brief pre-filled. No spam, no obligations.</p>
+        </form>
       </div>
     </div>
   </section>
 
   <!-- ============ FOOTER ============ -->
   <footer class="foot">
-    <div class="wrap foot-inner">
-      <a class="brand" href="#top">
-        <span class="brand-mark">QS</span>
-        <span class="brand-name">Qalbi <b>Studio</b></span>
-      </a>
-      <p>QR menus · Online stores · WhatsApp bots · Apps — built with ❤️ in Pakistan 🇵🇰</p>
-      <p class="foot-copy">© <span id="year">2026</span> Qalbi Studio. All rights reserved.</p>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="brand" href="#top">
+            <span class="brand-mark">QS</span>
+            <span class="brand-name">Qalbi <b>Studio</b></span>
+          </a>
+          <p>Digital product agency engineering ordering systems, storefronts and automation for Pakistan's growing businesses.</p>
+        </div>
+        <div class="foot-col">
+          <h4>Studio</h4>
+          <a href="#work">Selected Work</a>
+          <a href="#services">Capabilities</a>
+          <a href="#process">Process</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="foot-col">
+          <h4>Services</h4>
+          <a href="#services">QR Ordering</a>
+          <a href="#services">Online Stores</a>
+          <a href="#services">WhatsApp Bots</a>
+          <a href="#services">Custom Apps</a>
+        </div>
+        <div class="foot-col">
+          <h4>Contact</h4>
+          <a href="https://wa.me/923000000000" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="#contact">Project Brief</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+      </div>
+      <div class="foot-bar">
+        <span>© <span id="year">2026</span> Qalbi Studio. All rights reserved.</span>
+        <span>Designed &amp; engineered in-house 🇵🇰</span>
+      </div>
     </div>
   </footer>
 

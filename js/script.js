@@ -11,6 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     a.addEventListener("click", function () { links.classList.remove("open"); });
   });
 
+  var progress = document.getElementById("progress");
+  window.addEventListener("scroll", function () {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var pct = max > 0 ? (h.scrollTop / max) * 100 : 0;
+    progress.style.width = pct + "%";
+  }, { passive: true });
+
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (e.isIntersecting) {
@@ -43,5 +51,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }, { threshold: 0.4 });
   if (statsBox) cio.observe(statsBox);
+
+  var form = document.getElementById("briefForm");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var name = document.getElementById("fName").value.trim();
+      var biz = document.getElementById("fBiz").value.trim();
+      var svc = document.getElementById("fSvc").value;
+      var msg = document.getElementById("fMsg").value.trim();
+      var text = "Assalam o Alaikum Qalbi Studio!\n\n"
+        + "Name: " + name + "\n"
+        + "Business: " + biz + "\n"
+        + "Service: " + svc + "\n"
+        + (msg ? "Details: " + msg + "\n" : "")
+        + "\nMujhe free demo chahiye.";
+      window.open("https://wa.me/923000000000?text=" + encodeURIComponent(text), "_blank");
+    });
+  }
 
 });
